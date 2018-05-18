@@ -1,0 +1,12 @@
+.navbar{
+	border-radius: 0;
+	border: 0;
+	background-color: #37475a;
+
+}
+.navbar-inverse .navbar-brand{
+	color: white;
+}
+.navbar-inverse .navbar-nav li a{
+	color: white;
+}
