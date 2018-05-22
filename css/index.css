@@ -51,6 +51,10 @@ p{
 	text-align: left;
 }
 
+li{
+	list-style: none;
+}
+
 @media screen and (max-width: 700px){
 	header{
 		justify-content: center;
@@ -59,6 +63,19 @@ p{
 	.about-sec{
 		flex-direction: column;
 		align-items: center;
+	}
+
+	.project-area{
+		flex-direction: column;
+		align-items: center;
+	}
+
+	figure{
+		margin-bottom: 4.5rem;
+	}
+
+	figcaption{
+		text-align: center;
 	}
 
 	p{
@@ -80,6 +97,10 @@ p{
 		font-size: 1rem;
 	}
 
+	.project-area{
+		font-size: 1rem;
+	}
+
 	.brand{
 		margin-bottom: 0.5rem;
 	}
@@ -87,6 +108,10 @@ p{
 
 @media screen and (max-width: 375px){
 	a{
+		font-size: 0.9rem;
+	}
+
+	.project-area{
 		font-size: 0.9rem;
 	}
 
@@ -108,8 +133,35 @@ p{
 
 .project-sec{
 	margin-top: 5rem;
+	display: flex;
+
+}
+
+.title-col12{
+	margin-top: 2.5rem;
+	text-align: center;
 }
 
 .project-area{
 	margin-top: 2rem;
+	padding-bottom: 1rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+.contact-sec{
+	margin-top: 3rem;
+	padding-bottom: 1rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+.contact-area{
+	padding-bottom: 5rem;
+}
+
+.contact-links{
+	display: flex;
+	flex-direction: column;
+	align-content: space-around;
 }
