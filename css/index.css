@@ -18,14 +18,9 @@ header{
 .brand{
 	margin: 0.75rem;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 }
 
-hr{
-	width: 0%;
-	height: 0px;
-	margin:	0;
-}
 nav{
 	display: flex;
 	flex-direction: row;
@@ -52,11 +47,23 @@ i{
 	font-size: 0.75rem;
 }
 
+p{
+	text-align: left;
+}
+
 @media screen and (max-width: 700px){
 	header{
 		justify-content: center;
 	}
 
+	.about-sec{
+		flex-direction: column;
+		align-items: center;
+	}
+
+	p{
+		text-align: center;
+	}
 }
 
 @media screen and (max-width: 540px){
@@ -72,13 +79,37 @@ i{
 	a{
 		font-size: 1rem;
 	}
+
 	.brand{
 		margin-bottom: 0.5rem;
 	}
-	hr{
-		height: 0.1px;
-    width: 100%;
-    margin: 0;
-		color: #c9c9c9;
+}
+
+@media screen and (max-width: 375px){
+	a{
+		font-size: 0.9rem;
 	}
+
+	i{
+		font-size: 0%;
+	}
+
+}
+
+.about-sec{
+	margin-top: 3rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+.rounded-img{
+	border-radius: 50%;
+}
+
+.project-sec{
+	margin-top: 5rem;
+}
+
+.project-area{
+	margin-top: 2rem;
 }
