@@ -3,6 +3,7 @@
 
 body{
 	margin: 0;
+	font-family: 'Hind', sans-serif;
 }
 
 .top-line{
@@ -12,7 +13,6 @@ body{
 }
 
 header{
-	font-family: 'Hind', sans-serif;
 	display: flex;
 	justify-content: space-between;
 }
@@ -119,7 +119,7 @@ h6{
 		justify-content: center;
 	}
 
-	nav a{
+	nav a, .contact-links a, .contact-links i{
 		font-size: 1rem;
 	}
 
@@ -133,7 +133,7 @@ h6{
 }
 
 @media screen and (max-width: 390px){
-	nav a{
+	nav a, .contact-links a, .contact-links i{
 		font-size: 0.9rem;
 	}
 
@@ -177,7 +177,12 @@ h6{
 }
 
 .contact-area{
+	text-align: center;
 	padding-bottom: 5rem;
+}
+
+.col-6 h5{
+	margin-bottom: 2rem;
 }
 
 .contact-links{
