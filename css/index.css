@@ -188,7 +188,11 @@ h6{
 
 footer{
 	background-color: #262626;
-	padding: 6rem 0 4rem 0;
+	padding: 3rem 0 4rem 0;
 	color: #c9c9c9;
 
+}
+
+#copyright{
+	margin-bottom: 3rem;
 }
