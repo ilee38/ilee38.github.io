@@ -10,6 +10,7 @@ body{
 	height: 2px;
 	background-color: #52c9aa;
 }
+
 header{
 	font-family: 'Hind', sans-serif;
 	display: flex;
@@ -29,6 +30,9 @@ nav{
 
 a{
 	text-decoration: none;
+}
+
+nav a, .contact-links a{
 	color: #3b3a3a;
 	font-size: 1.2rem;
 	margin: 0.75rem;
@@ -36,7 +40,7 @@ a{
   transition: color 0.5s ease-out;
 }
 
-a:hover {
+nav a:hover, .contact-links a:hover{
 	text-decoration: none;
 	color: #52c9aa;
   border-bottom-color: #3b3a3a;
@@ -65,6 +69,7 @@ h6{
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
+	padding-bottom: 3rem;
 }
 
 .grid{
@@ -114,7 +119,7 @@ h6{
 		justify-content: center;
 	}
 
-	a{
+	nav a{
 		font-size: 1rem;
 	}
 
@@ -128,7 +133,7 @@ h6{
 }
 
 @media screen and (max-width: 390px){
-	a{
+	nav a{
 		font-size: 0.9rem;
 	}
 
@@ -186,6 +191,12 @@ h6{
 	padding-bottom: 0.75rem;
 }
 
+.bottom-line{
+	width: 100%;
+	height: 3px;
+	background-color: #52c9aa;
+}
+
 footer{
 	background-color: #262626;
 	padding: 3rem 0 4rem 0;
@@ -195,4 +206,12 @@ footer{
 
 #copyright{
 	margin-bottom: 3rem;
+}
+
+footer .col-4 li{
+	margin: 0.5rem;
+}
+
+footer .col-4 li a{
+	color: #c9c9c9;
 }
