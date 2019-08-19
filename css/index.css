@@ -88,6 +88,11 @@ h6{
 	display: block;
 }
 
+.portfolio-grid .grid a h3, a:hover{
+	text-decoration: none;
+	color: #212529;
+}
+
 
 @media screen and (max-width: 700px){
 	.about-sec{
@@ -156,6 +161,17 @@ h6{
 	margin-top: 5rem;
 	display: flex;
 	justify-content: space-between;
+}
+
+.about-sec .topics{
+	margin-top: 3rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+.about-sec a, a:hover{
+	text-decoration: none;
+	color: #52c9aa;
 }
 
 .rounded-img{
