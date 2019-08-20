@@ -69,6 +69,16 @@ h6{
 	margin: 0.5rem;
 }
 
+.topics .col-2 h6{
+	font-size: 0.8rem;
+	margin-left: 0;
+	text-align: center;
+}
+
+.topics .col-2 p{
+	text-align: center;
+}
+
 .portfolio-grid{
 	display: flex;
 	flex-direction: row;
